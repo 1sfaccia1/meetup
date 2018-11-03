@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Meetup extends Component {
+class Meetups extends Component {
   render(){
     return(
       <div>
