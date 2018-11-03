@@ -4,7 +4,7 @@ class Meetups extends Component {
   render(){
     return(
       <div>
-        <h1>Meetups</div>
+        <h1>Meetups</h1>
       </div>
     )
   }
