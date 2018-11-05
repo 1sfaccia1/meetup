@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Axios from 'axios';
+import axios from 'axios';
 
 class Meetups extends Component {
   constructor(){
@@ -10,7 +10,7 @@ class Meetups extends Component {
   }
 
   getMeetups(){
-    Axios.get('')
+    axios.get('/user?ID=12345');
   }
   render(){
     return(
