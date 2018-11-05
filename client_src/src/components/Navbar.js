@@ -14,8 +14,8 @@ class Navbar extends Component {
             </ul>
             <ul id="main-menu slide-out" className="sidenav">
               <li><Link to = "/"><i className="fa fa-users"></i>Meetups</Link></li>
-              <li><Link to = "/meetups/add"><i className="fa fa-plus"></i>Add Meetups</Link></li>
-              <li><Link to = "/about"><i class="btn-floating btn-large waves-effect waves-light red></i>About</Link></li>
+              <li><Link to = "/meetups/add"><i className="btn-floating btn-large waves-effect waves-light red"></i>Add Meetups</Link></li>
+              <li><Link to = "/about"><i className=""></i>About</Link></li>
             </ul>
 
           </div>
