@@ -21,6 +21,7 @@ componentDidMount(){
         // console.log(this.state);
       })
     })
+    .catch(err => console.log(err));
   }
   render(){
     const meetupItems = this.state.meetups.map((meetup,i) => {

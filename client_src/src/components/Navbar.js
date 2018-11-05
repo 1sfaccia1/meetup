@@ -17,7 +17,6 @@ class Navbar extends Component {
               <li><Link to = "/meetups/add"><i className="btn-floating btn-large waves-effect waves-light red"></i>Add Meetups</Link></li>
               <li><Link to = "/about"><i className=""></i>About</Link></li>
             </ul>
-
           </div>
         </nav>
       </div>
