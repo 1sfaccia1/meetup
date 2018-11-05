@@ -8,7 +8,7 @@ class Navbar extends Component {
         <nav className="blue darken-3">
           <div className="nav-wrapper">
             <a href="/" className="brand-logo center">Meetups</a>
-            <a href="#slide-out" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="fa fa-bars"></i></a>
+            <a data-target="slide-out" className="sidenav-trigger show-on-large"><i className="fa fa-bars"></i></a>
             <ul className="right hide-on-sm-only">
               <li><Link to = "/"><i className="fa fa-users"></i>Meetups</Link></li>
             </ul>
