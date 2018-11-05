@@ -12,7 +12,7 @@ class Navbar extends Component {
             <ul className="right hide-on-sm-only">
               <li><Link to = "/"><i className="fa fa-users"></i>Meetups</Link></li>
             </ul>
-            <ul id="main-menu slide-out" className="sidenav">
+            <ul id="main-menu" className="sidenav slide-out">
               <li><Link to = "/"><i className="fa fa-users"></i>Meetups</Link></li>
               <li><Link to = "/meetups/add"><i className="btn-floating btn-large waves-effect waves-light red"></i>Add Meetups</Link></li>
               <li><Link to = "/about"><i className=""></i>About</Link></li>
