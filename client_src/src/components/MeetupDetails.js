@@ -26,6 +26,15 @@ getMeetup(){
   .catch(err => console.log(err));
 }
 
+onDelete(){
+  let meetupId = this.state.details.id;
+  Axios.delete(`http://localhost:3000/api/meetups/${meetupId}`)
+  .then(responce => {
+    this.props.history.push('/');
+  })
+  .catch(err => console.log(err));
+}
+
   render(){
     return(
       <div>
@@ -37,6 +46,8 @@ getMeetup(){
             <li className="collection-item">Address: {this.state.details.address}</li>
           </ul>
         <Link className="btn" to={`/meetups/edit/${this.state.details.id}`}>Edit</Link>
+
+        <button onClick={this.onDelete.bind(this)} className="btn red right">Delete</button>
       </div>
       )
     }

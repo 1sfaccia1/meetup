@@ -18,7 +18,7 @@ componentDidMount(){
     Axios.get('http://localhost:3000/api/meetups')
     .then(responce => {
       this.setState({meetups: responce.data}, () => {
-        // console.log(this.state);
+         console.log(this.state);
       })
     })
     .catch(err => console.log(err));
